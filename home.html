@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset = "utf-8">
+	<script type="text/javascript">
+		function splitString(stringToSplit, separator){
+			var strings = stringToSplit.split(separator);
+			
+			document.writeln("the original string is \"" + stringToSplit + "\"<br/>");
+			document.writeln("the separator is \"" + separator + "\"<br/>");
+			document.writeln("the array has" + strings.length + "tokens: " + strings.join(" / "));		
+			}
+			
+			var inputString  = "Boston Provides Wentworth with an expanded learning laboratory";
+			var space = " ";
+			
+			splitString(inputString, space);
+		</script>
+	</head>
+</html>
